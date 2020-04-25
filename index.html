@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Шашлыки</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=37741879-4200-4e7c-86ed-90560e23e527"
+      type="text/javascript"
+    ></script>
+    <script src="js/map.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Хорошие шашлыки с друзьями!</h1>
+
+      <div class="row">
+        <div class="six columns">
+          <h3>20 июня 2020 года</h3>
+          <p><em>Донецк, Парк Щербакова, набережная Кальмиус</em></p>
+          <img src="img/kebab.jpg" alt="Шашлыки" class="u-max-full-width" />
+          <p>
+            А мы возьмем мотыля, и пойдем на реку! Выступают все! Приводите
+            друзей, будет весело.
+          </p>
+          <a href="http://goo.gl/forms/EloFZllQb6Q213yT2" class="button"
+            >Я пойду!</a
+          >
+        </div>
+
+        <div class="six columns" data-address="Набережная Кальмиус">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
